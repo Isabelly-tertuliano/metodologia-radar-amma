@@ -157,4 +157,7 @@ O projeto foi desenhado de forma transmutável e pode evoluir para soluções ai
 ## 🎯 Contexto do Desafio 
 Este projeto foi desenvolvido como prática de aplicação de um fluxo de ETL inteligente voltado para Retenção de Clientes (Metodologia Radar). O foco principal é demonstrar como um fluxo clássico de dados pode ser adaptado para um domínio real, corporativo e útil: o Customer Experience. A solução mostra que ETL não precisa ser apenas extração, limpeza e armazenamento de dados frios. Com regras de negócio bem amarradas e sensibilidade de UX, o processo passa a gerar interpretação, diagnóstico e réguas de comunicação personalizadas. 
     
-    Em resumo: O projeto transforma dados comportamentais simples em planilhas de relacionamento inteligentes, ajudando marcas a tomarem decisões melhores e a reconectarem clientes aos seus rituais de cuidado de forma humana.*Desenvolvido com 🤖 IA Generativa + 🐍 Python por Isabelly Tertuliano 
+    Em resumo: 
+    O projeto transforma dados comportamentais simples em planilhas de relacionamento inteligentes, 
+    ajudando marcas a tomarem decisões melhores e a reconectarem clientes aos seus rituais de cuidado de forma humana.
+    *Desenvolvido com Python por Isabelly Tertuliano 
