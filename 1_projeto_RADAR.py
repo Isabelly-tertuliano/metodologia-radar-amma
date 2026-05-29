@@ -223,9 +223,6 @@ for cliente in dados_clientes:
         
     primeiro_nome = nome_completo.split()[0]
     
-    # Mensagens mockadas simplificadas para o teste rodar 100% sem erros de digitação
-    mensagem_escolhida = f"Oi, {primeiro_nome}. Notamos que faz {ausencia} dias que não nos visitamos. Sentimos falta do seu momento AMMA com o seu {produto_favorito}."
-
 # 🧠 BANCO DE MOCK INSPIRADO NO MANIFESTO DA AMMA
     if risco_calculado == "BAIXO RISCO DE CHURN":
         opcoes = [
@@ -342,9 +339,6 @@ for cliente in dados_clientes:
 
 # 📥 LOGO ABAIXO, TOTALMENTE ENCOSTADO NA MARGEM ESQUERDA (FORA DO LOOP):
 print(f"\n✅ Todos os {len(dados_planilha)} perfis foram processados com sucesso!")
-
-    # Aqui continua o seu código original (pode ser um return ou o append que você já tinha)
- # (ou o que estiver no seu código original)
 
 # 📥 SÓ A ETAPA 3 (SALVAR O EXCEL) FICA ENCOSTADA NA ESQUERDA, FORA DO LOOP:
 print("\n=== ETAPA 3: CARGA ===")
