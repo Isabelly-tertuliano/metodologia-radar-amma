@@ -23,9 +23,11 @@ COMO ACONTECE (PIPELINE ETL):
 Iniciando processamento dos perfis e briefing da marca...
 """
 print(PROJETO) 
+
 # ==========================================
-# 0. CONTEXTO DE BRANDING DA MARCA (AMMA)
+# 1. CONTEXTO DE BRANDING DA MARCA (AMMA)
 # ==========================================
+
 BRIEFING = """ 
 Estratégia de CRM: Régua de Retenção Preventiva (Radar de Evasão)
 Objetivo: Agir de forma preventiva na retenção da base, 
@@ -191,15 +193,15 @@ dados_clientes = [
 
 print(f"✅ {len(dados_clientes)} perfis de pele carregados direto do código.\n")
 
-
 # ==========================================
 # ETAPA 2: TRANSFORMAÇÃO (Processamento)
 # ==========================================
+
 print("\n=== ETAPA 2: TRANSFORMAÇÃO (Mensagens Poéticas e Canais) ===")
 
 dados_planilha = []
 
-# O loop agora percorre a lista de dados internos com segurança total
+# O loop agora percorre a lista de dados internos
 for cliente in dados_clientes:
     
     nome_completo = cliente['Nome']
@@ -223,7 +225,7 @@ for cliente in dados_clientes:
         
     primeiro_nome = nome_completo.split()[0]
     
-# 🧠 BANCO DE MOCK INSPIRADO NO MANIFESTO DA AMMA
+# 🧠 BANCO DE MOCK INSPIRADO NO BRIEFING DA AMMA
     if risco_calculado == "BAIXO RISCO DE CHURN":
         opcoes = [
             {
@@ -337,11 +339,12 @@ for cliente in dados_clientes:
         
     print("="*60 + "\n")
 
-# 📥 LOGO ABAIXO, TOTALMENTE ENCOSTADO NA MARGEM ESQUERDA (FORA DO LOOP):
 print(f"\n✅ Todos os {len(dados_planilha)} perfis foram processados com sucesso!")
 
-# 📥 SÓ A ETAPA 3 (SALVAR O EXCEL) FICA ENCOSTADA NA ESQUERDA, FORA DO LOOP:
-print("\n=== ETAPA 3: CARGA ===")
+# ==========================================
+# ETAPA 3: CARREGAMENTO (DADOS + DISPAROS)
+# ==========================================
+print("\n=== ETAPA 3: CARREGAMENTO DA NOVA BASE COM MENSAGEM ===")
 
 # Cria o DataFrame com todos os dados acumulados
 df_resultado = pd.DataFrame(dados_planilha)
