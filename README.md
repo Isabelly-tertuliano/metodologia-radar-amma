@@ -134,4 +134,9 @@ Em vez de um relatório de CRM tradicional apenas com números frios, a equipe r
 ## 🎯 Contexto do Desafio
 Este projeto foi desenvolvido como prática de aplicação de um fluxo de ETL inteligente voltado para Retenção de Clientes (Metodologia Radar). O foco principal é demonstrar como um fluxo clássico de dados pode ser adaptado para um domínio real, corporativo e útil: o Customer Experience. A solução mostra que ETL não precisa ser apenas extração, limpeza e armazenamento de dados frios. Com regras de negócio bem amarradas e sensibilidade de UX, o processo passa a gerar interpretação, diagnóstico e réguas de comunicação personalizadas.
 
-    ## Desenvolvido com dedicação e Python por Isabelly Tertuliano.
+> 📌 **NOTA DE IMPLEMENTAÇÃO & PORTFÓLIO:**
+> Este repositório funciona como o portfólio estratégico da **Metodologia Radar**, demonstrando a arquitetura de dados e as entregas finais de CX. O script de automação em Python atua na camada de back-end (privado) para processar o pipeline ETL e gerar a inteligência. 
+> 
+> Para fins de demonstração pública, este espaço disponibiliza a massa de dados utilizada (`dados_ecommerce`), o relatório final gerado pelo sistema (`resultado_radar2_.xlsx`) e o detalhamento do tom de voz e regras de negócio aplicadas na régua de relacionamento.
+
+    Desenvolvido com dedicação e Python por Isabelly Tertuliano.
