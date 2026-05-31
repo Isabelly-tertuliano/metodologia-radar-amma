@@ -120,9 +120,7 @@ O projeto foi arquitetado de forma modular para expandir a atual estrutura de te
 
   2. Na Carga: Em vez de apenas gerar planilhas, o sistema usará Webhooks e APIs para injetar os rituais e diagnósticos de risco direto na ficha do usuário dentro do CRM, ativando gatilhos automáticos de disparo omnicanal (E-mail, SMS ou WhatsApp).
 
-- Hiper-Personalização com Inteligência Artificial (IA): Integração via API com LLMs (como OpenAI ou Google Gemini) para substituir as matrizes dinâmicas por um motor generativo em tempo real.
-
-A IA interpretará o momento da jornada mapeado pelo CRM para redigir cópias exclusivas e customizadas para cada régua de relacionamento de forma 100% humanizada.
+- Hiper-Personalização com Inteligência Artificial (IA): Integração via API com LLMs (como OpenAI ou Google Gemini) para substituir as matrizes dinâmicas por um motor generativo em tempo real. A IA interpretará o momento da jornada mapeado pelo CRM para redigir cópias exclusivas e customizadas para cada régua de relacionamento de forma 100% humanizada.
 
 ## 🌟 Diferenciais de Negócio & Aplicação
 Em vez de um relatório de CRM tradicional apenas com números frios, a equipe recebe um mapa de ação completo, compreensível e acionável sobre a situação de cada cliente. Esta solução foi desenhada para:
