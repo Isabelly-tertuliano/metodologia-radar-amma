@@ -1,4 +1,4 @@
-# 📡 ETL Radar AMMA — Retenção Preditiva com CRM Inteligente
+ok# 📡 ETL Radar AMMA — Retenção Preditiva com CRM Inteligente
 
 Pipeline ETL com Python e Inteligência Artificial Generativa para transformar dados comportamentais em réguas de relacionamento e monitoramento de churn em tempo real.
 
@@ -114,13 +114,13 @@ Depois que a inteligência de risco e as cópias personalizadas são consolidada
 
 O projeto foi arquitetado de forma modular para expandir a atual estrutura de testes para uma automação em larga escala através de duas frentes principais de integração e inteligência:
 
-1. Integração Nativa com Ferramentas de CRM (Entrada e Saída): Substituição da base interna de testes por conexões automatizadas via API com plataformas de CRM (como HubSpot, Salesforce ou RD Station). 
- 
-- Na Extração: O pipeline passará a consumir diretamente em tempo real os dados de navegação, propriedades de contato e histórico de interações armazenados no CRM. 
+1-Integração Nativa com Ferramentas de CRM (Entrada e Saída): Substituição da base interna de testes por conexões automatizadas via API com plataformas de CRM (como HubSpot, Salesforce ou RD Station, Hyperflow). 
 
-- Na Carga: Em vez de apenas gerar planilhas, o sistema usará Webhooks e APIs para injetar os rituais e diagnósticos de risco direto na ficha do usuário dentro do CRM, ativando gatilhos automáticos de disparo omnicanal (E-mail, SMS ou WhatsApp).
+ Na Extração: O pipeline passará a consumir diretamente em tempo real os dados de navegação, propriedades de contato e histórico de interações armazenados no CRM. 
 
-2. Hiper-Personalização com Inteligência Artificial (IA): Integração via API com LLMs (como OpenAI ou Google Gemini) para substituir as matrizes dinâmicas por um motor generativo em tempo real. A IA interpretará o momento da jornada mapeado pelo CRM para redigir cópias exclusivas, poéticas e customizadas para cada régua de relacionamento de forma 100% humanizada.
+  Na Carga: Em vez de apenas gerar planilhas, o sistema usará Webhooks e APIs para injetar os rituais e diagnósticos de risco direto na ficha do usuário dentro do CRM, ativando gatilhos automáticos de disparo omnicanal (E-mail, SMS ou WhatsApp).
+
+2- Hiper-Personalização com Inteligência Artificial (IA): Integração via API com LLMs (como OpenAI ou Google Gemini) para substituir as matrizes dinâmicas por um motor generativo em tempo real. A IA interpretará o momento da jornada mapeado pelo CRM para redigir cópias exclusivas, poéticas e customizadas para cada régua de relacionamento de forma 100% humanizada.
 
 ## 🌟 Diferenciais de Negócio & Aplicação
 Em vez de um relatório de CRM tradicional apenas com números frios, a equipe recebe um mapa de ação completo, compreensível e acionável sobre a situação de cada cliente. Esta solução foi desenhada para:
