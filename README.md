@@ -1,6 +1,6 @@
 # 📡 ETL Radar AMMA — Retenção Preditiva com CRM Inteligente
 
-Pipeline ETL com Python e Inteligência Artificial Generativa para transformar dados comportamentais de e-commerce em réguas de relacionamento poéticas e monitoramento de churn em tempo real.
+Pipeline ETL com Python e Inteligência Artificial Generativa para transformar dados comportamentais em réguas de relacionamento e monitoramento de churn em tempo real.
 
 ---
 
@@ -23,18 +23,22 @@ Em vez de trabalhar apenas com dados brutos de transações e acessos, o pipelin
 ## 🎓 Novo Domínio: Retenção e Customer Success com ETL + IA 
 
 O sistema foi desenhado para uma marca do ecossistema de bem-estar e skincare que recebe dados de engajamento e atividade dos clientes. Cada cliente possui informações cruciais como: 
-* Nome completo do cliente
+* Nome completo
 * E-mail e contato telefônico
-* Tempo de ausência nas redes (em dias)
+* Tempo de ausência nas redes sociais (em dias)
 * Último produto comprado
-* Últimos produtos acessados/namorados no site
+* Últimos produtos acessados no site
 * Produto favorito (mais comprado)
+* Último acesso ao site 
+* Último produto salvo 
+* Último produto abandonado (carrinho)
+
 
 ### O objetivo é rodar um pipeline ETL inteligente para:
 * ✔️ Isolar automaticamente o primeiro nome para uma abordagem humanizada
 * ✔️ Calcular o nível de risco de evasão (*churn*) baseado nos dias de ausência
 * ✔️ Definir estrategicamente o canal de disparo ideal (E-mail ou WhatsApp)
-* ✔️ Integrar com IA para gerar réguas de comunicação poéticas baseadas nos rituais de consumo
+* ✔️ Integrar com IA para gerar réguas de comunicação baseadas nos rituais de consumo de cada cliente
 * ✔️ Alternar abordagens de forma dinâmica para evitar automações mecânicas
 * ✔️ Salvar os relatórios e mensagens em formatos reutilizáveis para a equipe de CRM
 
@@ -109,7 +113,7 @@ Depois que a inteligência de risco e as cópias personalizadas são consolidada
 ## 🚀 Próximos Passos & Evolução do Sistema (Roadmap)
 O projeto foi arquitetado de forma modular para expandir a atual estrutura de testes para uma automação em larga escala através de duas frentes principais:
 
-- Extração de Dados via CSV: Substituição da base interna de testes por uma camada de leitura automatizada de arquivos .csv externos (via Pandas), permitindo o upload em lote de bases de dados reais extraídas diretamente de plataformas de e-commerce (Shopify, VTEX, HubSpot).
+- Extração de Dados via CSV: Substituição da base interna de testes por uma camada de leitura automatizada de arquivos .csv externos (via Pandas), permitindo o upload em lote de bases de dados reais extraídas diretamente de plataformas de  (Shopify, VTEX, HubSpot).
 
 - Hiper-Personalização com Inteligência Artificial (IA): Integração via API com LLMs (como OpenAI ou Google Gemini) para substituir as matrizes dinâmicas por um motor generativo em tempo real, redigindo cópias exclusivas e customizadas com base nas variáveis dinâmicas de cada jornada individual.
 
