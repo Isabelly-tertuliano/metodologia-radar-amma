@@ -1,4 +1,4 @@
-ok# 📡 ETL Radar AMMA — Retenção Preditiva com CRM Inteligente
+## 📡 ETL Radar AMMA — Retenção Preditiva com CRM Inteligente
 
 Pipeline ETL com Python e Inteligência Artificial Generativa para transformar dados comportamentais em réguas de relacionamento e monitoramento de churn em tempo real.
 
